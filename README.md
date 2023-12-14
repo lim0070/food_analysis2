@@ -19,12 +19,6 @@ calories checking app so it can reduce unintention calories comsumption.
 
 ---
 
-For the accuracy of the model, we will use root mean squre(RMSE) and also R^2 to test the performance of our model. RMSE is a good messure of accuracy on models and R^2 would tell us how many variation of the calories did our data explained.
 
-RMSE could helps our model to avoid extreme errors in the data frame, we also set a boundary on certains variables like n_minutes and n_steps because some of the data in our dataset is large outlier like a cooking receipe require 10 year s would be removed
-
-We aim to have a lower RMSE in our model so that it will reflects good performance on our model and also the trustworthy and individauls could apply our model on food items to get nutrition informations as they desires
-
-Since we aim for an accurate model, a high R^2 means that our model predict large variability of the model so that we can confirm that we have the correct sets of features to predict the calories
 
 
